@@ -6,4 +6,4 @@ As you can tell by the amount of comments, this is for a my Computer Science deg
 
 # Screenshot
 
-![Finite State Machine Output](http://imgur.com/a/h0ECb)
+![Finite State Machine Output](http://i.imgur.com/HjC28Py.png)
