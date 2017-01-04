@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * Finite State Machine
  * 
@@ -18,15 +20,18 @@
  */
 public class StateMachineInterface {
 	
+	/**
+	 * This is the main method, which continuously asks for an 
+	 * input string, and then processes each one.
+	 * @param args
+	 */
 	public static void main(String args[]) {
-		// Perform tests on the State Machine
-		process("1001100");
-		process("000010");
-		process("0100110100");
-		process("00110");
-		process("00100");
-		process("1001000");
-		
+		while(true) {
+			Scanner scanner = new Scanner(System.in);
+			System.out.print("Enter a String to be Checked: ");
+		    String s = scanner.next();
+		    process(s);
+		}
 	}
 	
 	/**
