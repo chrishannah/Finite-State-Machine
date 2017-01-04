@@ -20,6 +20,9 @@ import java.util.Scanner;
  */
 public class StateMachineInterface {
 	
+	private static Scanner scanner;
+	private static StateMachine sm;
+
 	/**
 	 * This is the main method, which continuously asks for an 
 	 * input string, and then processes each one.
@@ -27,7 +30,7 @@ public class StateMachineInterface {
 	 */
 	public static void main(String args[]) {
 		while(true) {
-			Scanner scanner = new Scanner(System.in);
+			scanner = new Scanner(System.in);
 			System.out.print("Enter a String to be Checked: ");
 		    String s = scanner.next();
 		    process(s);
@@ -40,7 +43,7 @@ public class StateMachineInterface {
 	 * @param in String to be processed
 	 */
 	private static void process(String in) {
-		if (StateMachine.process(in)) {
+		if (sm.process(in)) {
 			System.out.println(in + " accepted");
 		} else {
 			System.out.println(in + " rejected");
