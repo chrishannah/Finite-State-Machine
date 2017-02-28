@@ -1,4 +1,4 @@
-**Support Me** - If you like what I'm doing, then help a student continue by donating a coffee! [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/ChrisHannah/5)
+**Support Me** - If you like what I'm doing, then help a student continue by donating a coffee! <a href="https://www.patreon.com/bePatron?u=5214284" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://cdn6.patreon.com/becomePatronButton.bundle.js"></script>
 
 This program is the Java representation of a finite state machine, it checks whether a given String is valid, based upon specific criteria.
 
